@@ -2,7 +2,7 @@
 
 const test = require("node:test");
 const assert = require("node:assert/strict");
-const { obterIndicesMaiorEMenor } = require("../src/desafio2_indices");
+const { obterIndicesMaiorEMenor } = require("../src/indices");
 
 test("obterIndicesMaiorEMenor retorna os indices corretos", () => {
   const array = [12, 4, 18, 7, -3, 15];

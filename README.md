@@ -12,29 +12,29 @@ Projeto com a solucao de 3 desafios propostos em aula, com foco em boas praticas
 ```text
 .
 |-- src
-|   |-- desafio1_mdc.js
-|   |-- desafio2_indices.js
-|   `-- desafio3_soma_multiplos.js
+|   |-- mdc.js
+|   |-- indices.js
+|   `-- soma.js
 `-- tests
-    |-- desafio1_mdc.test.js
-    |-- desafio2_indices.test.js
-    `-- desafio3_soma_multiplos.test.js
+    |-- mdc.test.js
+    |-- indices.test.js
+    `-- soma.test.js
 ```
 
 ## Desafios e APIs
 
 1. MDC entre dois numeros inteiros
-- Arquivo: `src/desafio1_mdc.js`
+- Arquivo: `src/mdc.js`
 - API: `calcularMDC(a, b): number`
 - Decisao tecnica: algoritmo de Euclides, com suporte a inteiros negativos (via valor absoluto).
 
 2. Indice do maior e do menor valor em array sem repeticao
-- Arquivo: `src/desafio2_indices.js`
+- Arquivo: `src/indices.js`
 - API: `obterIndicesMaiorEMenor(array): { indiceMaior, indiceMenor }`
 - Decisao tecnica: varredura unica do array com controle de repeticao por `Set`.
 
 3. Soma de multiplos abaixo de um limite
-- Arquivo: `src/desafio3_soma_multiplos.js`
+- Arquivo: `src/soma.js`
 - API: `somarMultiplosAbaixoDoLimite(limite, divisores): number`
 - Decisao tecnica: iteracao de `1` ate `limite - 1` e verificacao por lista de divisores unicos, evitando soma duplicada.
 

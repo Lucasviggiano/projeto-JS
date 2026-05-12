@@ -2,13 +2,13 @@
   "name": "qualidade-software-exercicio",
   "version": "1.0.0",
   "description": "Solucoes em JavaScript para exercicios de qualidade de software.",
-  "main": "src/desafio1_mdc.js",
+  "main": "src/mdc.js",
   "scripts": {
     "test": "node --test",
     "test:watch": "node --test --watch",
-    "desafio1": "node src/desafio1_mdc.js",
-    "desafio2": "node src/desafio2_indices.js",
-    "desafio3": "node src/desafio3_soma_multiplos.js",
+    "desafio1": "node src/mdc.js",
+    "desafio2": "node src/indices.js",
+    "desafio3": "node src/soma.js",
     "desafios": "npm run desafio1 && npm run desafio2 && npm run desafio3"
   },
   "keywords": [],

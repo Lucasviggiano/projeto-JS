@@ -2,7 +2,7 @@
 
 const test = require("node:test");
 const assert = require("node:assert/strict");
-const { calcularMDC } = require("../src/desafio1_mdc");
+const { calcularMDC } = require("../src/mdc");
 
 test("calcularMDC retorna o MDC de dois inteiros positivos", () => {
   assert.equal(calcularMDC(54, 24), 6);

@@ -4,7 +4,7 @@ const test = require("node:test");
 const assert = require("node:assert/strict");
 const {
   somarMultiplosAbaixoDoLimite,
-} = require("../src/desafio3_soma_multiplos");
+} = require("../src/soma");
 
 test("somarMultiplosAbaixoDoLimite calcula o caso do enunciado adaptado", () => {
   assert.equal(somarMultiplosAbaixoDoLimite(1000, [5, 7]), 156361);
